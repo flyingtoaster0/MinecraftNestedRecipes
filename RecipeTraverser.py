@@ -63,15 +63,12 @@ class RecipeTraverser:
 
     def get_ingredients(self, title, config, result_dict={}, multiplier=1):
 
-        if title not in config:
-            result_dict[title] = multiplier
-            return result_dict
-
-        ingredient_list = config[title]
-        if ingredient_list is None:
+        if title not in config or config[title] is None:
             new_amount = result_dict.get(title, 0) + multiplier
             result_dict[title] = new_amount
             return result_dict
+
+        ingredient_list = config[title]
 
         for ingredient_name, ingredient_amount in ingredient_list:
             self.get_ingredients(ingredient_name, config, result_dict, ingredient_amount * multiplier)

@@ -5,7 +5,7 @@ config = RecipeConfig().get_config_yaml()
 # config = RecipeConfig().get_ingredient_config()
 
 items = (
-    ('chest', 1),
+    ('iron_kinetic_gearbox_rotor', 1),
 )
 
 recipe_traverser = RecipeTraverser()
