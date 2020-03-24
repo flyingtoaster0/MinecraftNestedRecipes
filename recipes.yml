@@ -112,11 +112,32 @@ mining_pipe:
   - name: treetap
     amount: 1
 
+# upgrades
 
 ejector_upgrade:
   - name: tin_plate
     amount: 4
   - name: piston
+    amount: 1
+
+pulling_upgrade:
+  - name: tin_plate
+    amount: 4
+  - name: sticky_piston
+    amount: 1
+
+fluid_ejector_upgrade:
+  - name: tin_plate
+    amount: 4
+  - name: electric_motor
+    amount: 1
+
+fluid_pulling_upgrade:
+  - name: tin_plate
+    amount: 4
+  - name: electric_motor
+    amount: 1
+  - name: treetap
     amount: 1
 
 
@@ -179,7 +200,7 @@ electric_motor:
   - name: coil
     amount: 2
   - name: iron_ingot
-    amount: 2
+    amount: 1
 
 coil:
   - name: copper_cable
