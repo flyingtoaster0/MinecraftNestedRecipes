@@ -278,3 +278,37 @@ advanced_alloy:
     amount: 3
   - name: tin_plate
     amount: 3
+
+# liquid pipes
+
+tiny_bronze_pipe:
+  - name: bronze_item_casing
+    amount: 6
+
+small_bronze_pipe:
+  - name: bronze_item_casing
+    amount: 6
+
+medium_bronze_pipe:
+  - name: bronze_plate
+    amount: 6
+
+large_bronze_pipe:
+  - name: bronze_plate
+    amount: 6
+
+tiny_steel_pipe:
+  - name: steel_item_casing
+    amount: 6
+
+small_steel_pipe:
+  - name: steel_item_casing
+    amount: 6
+
+medium_steel_pipe:
+  - name: steel_plate
+    amount: 6
+
+large_steel_pipe:
+  - name: steel_plate
+    amount: 6
