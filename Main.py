@@ -1,15 +1,21 @@
 from RecipeTraverser import RecipeTraverser
 from RecipeConfig import RecipeConfig
+import argparse
+
+
+parser = argparse.ArgumentParser(description='Process some integers.')
+parser.add_argument('recipe', help='The name of the recipe to parse')
+args = parser.parse_args()
+
+recipe_name = args.recipe
 
 config = RecipeConfig().get_config_yaml()
-# config = RecipeConfig().get_ingredient_config()
-
-items = (
-    ('chest', 1),
-)
 
 recipe_traverser = RecipeTraverser()
 
-recipe_traverser.print_trees(items, config)
+print()
+recipe_traverser.print_tree(recipe_name, config)
+
+print()
 print("Total Materials")
-print(recipe_traverser.get_ingredients_list(items, config))
+print(recipe_traverser.get_ingredients(recipe_name, config))
