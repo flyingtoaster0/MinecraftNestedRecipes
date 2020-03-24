@@ -271,13 +271,17 @@ advanced_circuit:
   - name: electronic_circuit
     amount: 2
 
-advanced_alloy:
+mixed_metal_ingot:
   - name: iron_plate
     amount: 3
   - name: bronze_plate
     amount: 3
   - name: tin_plate
     amount: 3
+
+advanced_alloy:
+  - name: mixed_metal_ingot
+    amount: 1
 
 # liquid pipes
 
