@@ -40,6 +40,16 @@ generator:
   - name: furnace
     amount: 1
 
+geothermal_generator:
+  - name: glass
+    amount: 4
+  - name: universal_fluid_cell
+    amount: 2
+  - name: iron_item_casing
+    amount: 2
+  - name: generator
+    amount: 1
+
 solar_panel:
   - name: electronic_circuit
     amount: 2
@@ -74,6 +84,55 @@ thermal_centrifuge:
   - name: mining_laser
     amount: 1
 
+kinetic_generator:
+  - name: iron_item_casing
+    amount: 6
+  - name: generator
+    amount: 1
+  - name: electric_motor
+    amount: 1
+  - name: iron_shaft
+    amount: 1
+
+pump:
+  - name: electronic_circuit
+    amount: 1
+  - name: treetap
+    amount: 1
+  - name: mining_pipe
+    amount: 2
+  - name: universal_fuel_cell
+    amount: 4
+  - name: basic_machine_casing
+    amount: 1
+
+mining_pipe:
+  - name: iron_plate
+    amount: 6
+  - name: treetap
+    amount: 1
+
+
+ejector_upgrade:
+  - name: tin_plate
+    amount: 4
+  - name: piston
+    amount: 1
+
+
+
+# transformers
+
+lv_transformer:
+  - name: wooden_planks
+    amount: 6
+  - name: coil
+    amount: 1
+  - name: insulated_tin_cable
+    amount: 2
+
+
+
 # metal former
 
 iron_shaft:
@@ -86,6 +145,24 @@ re_battery:
   - name: redstone
     amount: 2
   - name: insulated_tin_cable
+    amount: 1
+
+advanced_re_battery:
+  - name: insulated_copper_wire
+    amount: 2
+  - name: bronze_item_casing
+    amount: 5
+  - name: sulfur_dust
+    amount: 1
+  - name: lead_dust
+    amount: 1
+
+cesu:
+  - name: advanced_re_battery
+    amount: 3
+  - name: bronze_plate
+    amount: 5
+  - name: insulated_copper_wire
     amount: 1
 
 electronic_circuit:
@@ -147,7 +224,7 @@ wooden_rotor_blade:
 wooden_kinetic_gearbox_rotor:
   - name: wooden_rotor_blade
     amount: 4
-  - name: iron_ingot
+  - name: iron_shaft
     amount: 1
 
 iron_rotor_blade:
