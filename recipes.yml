@@ -106,6 +106,14 @@ pump:
   - name: basic_machine_casing
     amount: 1
 
+compressor:
+  - name: stone
+    amount: 2
+  - name: basic_machine_casing
+    amount: 1
+  - name: electronic_circuit
+    amount: 1
+
 mining_pipe:
   - name: iron_plate
     amount: 6
@@ -152,6 +160,30 @@ lv_transformer:
   - name: insulated_tin_cable
     amount: 2
 
+mv_transformer:
+  - name: basic_machine_casing
+    amount: 1
+  - name: insulated_copper_cable
+    amount: 2
+
+hv_transformer:
+  - name: 2x_insulated_gold_cable
+    amount: 6
+  - name: mv_transformer
+    amount: 1
+  - name: advanced_re_battery
+    amount: 1
+
+ev_transformer:
+  - name: 3x_insulated_hv_cable
+    amount: 2
+  - name: hv_transformer
+    amount: 1
+  - name: lapotron_crystal
+    amount: 1
+  - name: advanced_circuit
+    amount: 1
+
 
 
 # metal former
@@ -185,6 +217,26 @@ cesu:
     amount: 5
   - name: insulated_copper_wire
     amount: 1
+
+mfe:
+  - name: energy_crystal
+    amount: 4
+  - name: 2x_insulated_gold_cable
+    amount: 4
+  - name: basic_machine_casing
+    amount: 1
+
+mfsu:
+  - name: mfe
+    amount: 1
+  - name: advanced_machine_casing
+    amount: 1
+  - name: basic_machine_casing
+    amount: 1
+  - name: advanced_circuit
+    amount: 1
+  - name: lapotron_crystal
+    amount: 6
 
 electronic_circuit:
   - name: insulated_copper_cable
@@ -273,10 +325,6 @@ mining_laser:
     amount: 4
 
 energy_crystal:
-  - name: energium_dust
-    amount: 9
-
-energium_dust:
   - name: redstone
     amount: 5
   - name: diamond_dust
