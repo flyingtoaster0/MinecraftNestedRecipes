@@ -108,11 +108,37 @@ pump:
 
 compressor:
   - name: stone
-    amount: 2
+    amount: 6
   - name: basic_machine_casing
     amount: 1
   - name: electronic_circuit
     amount: 1
+
+electric_heat_generator:
+  - name: heat_conductor
+    amount: 1
+  - name: electronic_circuit
+    amount: 1
+  - name: re_battery
+    amount: 1
+  - name: iron_item_casing
+    amount: 6
+
+fluid_heat_generator:
+  - name: heat_conductor
+    amount: 1
+  - name: universal_fluid_cell
+    amount: 4
+  - name: iron_item_casing
+    amount: 4
+
+blast_furnace:
+  - name: basic_machine_casing
+    amount: 1
+  - name: heat_conductor
+    amount: 1
+  - name: iron_item_casing
+    amount: 7
 
 mining_pipe:
   - name: iron_plate
@@ -167,24 +193,24 @@ mv_transformer:
     amount: 2
 
 hv_transformer:
-  - name: 2x_insulated_gold_cable
-    amount: 6
   - name: mv_transformer
     amount: 1
-  - name: advanced_re_battery
+  - name: 2x_insulated_gold_cable
+    amount: 2
+  - name: advanced_ev_battery
+    amount: 1
+  - name: electronic_circuit
     amount: 1
 
 ev_transformer:
-  - name: 3x_insulated_hv_cable
-    amount: 2
   - name: hv_transformer
     amount: 1
-  - name: lapotron_crystal
-    amount: 1
+  - name: 3x_insulated_hv_cable
+    amount: 2
   - name: advanced_circuit
     amount: 1
-
-
+  - name: lapotron_cystal
+    amount: 1
 
 # metal former
 
@@ -208,6 +234,14 @@ advanced_re_battery:
   - name: sulfur_dust
     amount: 1
   - name: lead_dust
+    amount: 1
+
+batbox:
+  - name: re_battery
+    amount: 3
+  - name: wooden_planks
+    amount: 5
+  - name: insulated_tin_wire
     amount: 1
 
 cesu:
