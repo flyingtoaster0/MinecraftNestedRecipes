@@ -60,6 +60,22 @@ solar_panel:
   - name: generator
     amount: 1
 
+metal_former:
+  - name: basic_machine_casing
+    amount: 1
+  - name: electronic_circuit
+    amount: 1
+  - name: toolbox
+    amount: 2
+  - name: coil
+    amount: 3
+
+toolbox:
+  - name: bronze_item_casing
+    amount: 5
+  - name: chest
+    amount: 1
+
 ore_washing_plant:
   - name: iron_plate
     amount: 3
@@ -272,6 +288,22 @@ mfsu:
   - name: lapotron_crystal
     amount: 6
 
+batpack:
+  - name: electronic_circuit
+    amount: 1
+  - name: wooden_planks
+    amount: 1
+  - name: re_battery
+    amount: 6
+
+energypack:
+  - name: energy_crystal
+    amount: 2
+  - name: advanced_circuit
+    amount: 2
+  - name: iron_item_casing
+    amount: 4
+
 electronic_circuit:
   - name: insulated_copper_cable
     amount: 6
@@ -354,7 +386,7 @@ mining_laser:
   - name: energy_crystal
     amount: 1
   - name: advanced_circuit
-    amount: 2
+    amount: 1
   - name: advanced_alloy
     amount: 4
 
@@ -419,3 +451,12 @@ medium_steel_pipe:
 large_steel_pipe:
   - name: steel_plate
     amount: 6
+
+
+carbon_fibers:
+  - name: coal_dust
+    amount: 4
+
+carbon_plate:
+  - name: carbon_fibers
+    amount: 2

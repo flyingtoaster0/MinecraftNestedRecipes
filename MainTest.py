@@ -5,7 +5,7 @@ config = RecipeConfig().get_config_yaml()
 # config = RecipeConfig().get_ingredient_config()
 
 items = (
-    ('electric_motor', 1),
+    ('thermal_centrifuge', 1),
 )
 
 recipe_traverser = RecipeTraverser()
