@@ -2,6 +2,10 @@ chest:
   - name: wooden_planks
     amount: 8
 
+crafting_table:
+  - name: wooden_planks
+    amount: 4
+
 iron_pickaxe:
   - name: iron_ingot
     amount: 3
@@ -31,6 +35,16 @@ iron_block:
 basic_machine_casing:
   - name: iron_plate
     amount: 8
+
+advanced_machine_casing:
+  - name: basic_machine_casing
+    amount: 1
+  - name: iron_plate
+    amount: 4
+  - name: advanced_alloy
+    amount: 2
+  - name: carbon_plate
+    amount: 2
 
 generator:
   - name: re_battery
@@ -91,7 +105,7 @@ ore_washing_plant:
 thermal_centrifuge:
   - name: coil
     amount: 2
-  - name: basic_machine_casing
+  - name: advanced_machine_casing
     amount: 1
   - name: electric_motor
     amount: 1
@@ -155,6 +169,28 @@ blast_furnace:
     amount: 1
   - name: iron_item_casing
     amount: 7
+
+industrial_workbench:
+  - name: crafting_table
+    amount: 1
+  - name: basic_machine_casing
+    amount: 1
+  - name: forge_hammer
+    amount: 1
+  - name: cutter
+    amount: 1
+
+batch_crafter:
+  - name: industrial_workbench
+    amount: 1
+  - name: advanced_machine_casing
+    amount: 1
+  - name: forge_hammer
+    amount: 2
+  - name: wrench
+    amount: 1
+  - name: advanced_circuit
+    amount: 2
 
 mining_pipe:
   - name: iron_plate
@@ -229,6 +265,16 @@ ev_transformer:
     amount: 1
 
 # metal former
+
+forge_hammer:
+  - name: iron_ingot
+    amount: 5
+  - name: stick
+    amount: 2
+
+wrench:
+  - name: bronze_ingot
+    amount: 6
 
 iron_shaft:
   - name: iron_block
@@ -375,9 +421,32 @@ iron_rotor_blade:
 iron_kinetic_gearbox_rotor:
   - name: iron_rotor_blade
     amount: 4
-  - name: iron_ingot
+  - name: iron_shaft
     amount: 1
 
+steel_rotor_blade:
+  - name: steel_ingot
+    amount: 3
+  - name: steel_plate
+    amount: 6
+
+steel_kinetic_gearbox_rotor:
+  - name: steel_rotor_blade
+    amount: 4
+  - name: iron_shaft
+    amount: 1
+
+carbon_rotor_blade:
+  - name: combined_carbon_fibers
+    amount: 3
+  - name: carbon_plate
+    amount: 6
+
+carbon_kinetic_gearbox_rotor:
+  - name: carbon_rotor_blade
+    amount: 4
+  - name: steel_shaft
+    amount: 1
 # misc unsorted advanced stuff
 
 mining_laser:
@@ -459,4 +528,10 @@ carbon_fibers:
 
 carbon_plate:
   - name: carbon_fibers
+    amount: 2
+
+reinforced_glass:
+  - name: glass
+    amount: 7
+  - name: advanced_alloy
     amount: 2

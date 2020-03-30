@@ -5,7 +5,7 @@ config = RecipeConfig().get_config_yaml()
 # config = RecipeConfig().get_ingredient_config()
 
 items = (
-    ('thermal_centrifuge', 1),
+    ('transformer_upgrade', 1),
 )
 
 recipe_traverser = RecipeTraverser()
