@@ -5,7 +5,8 @@ config = RecipeConfig().get_config_yaml()
 # config = RecipeConfig().get_ingredient_config()
 
 items = (
-    ('transformer_upgrade', 1),
+    ('kinetic_generator', 4),
+    ('kinetic_wind_generator', 4),
 )
 
 recipe_traverser = RecipeTraverser()

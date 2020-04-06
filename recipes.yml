@@ -54,6 +54,16 @@ generator:
   - name: furnace
     amount: 1
 
+macerator:
+  - name: flint
+    amount: 3
+  - name: basic_machine_casing
+    amount: 1
+  - name: cobblestone
+    amount: 2
+  - name: electronic_circuit
+    amount: 1
+
 geothermal_generator:
   - name: glass
     amount: 4
@@ -327,8 +337,6 @@ mfsu:
     amount: 1
   - name: advanced_machine_casing
     amount: 1
-  - name: basic_machine_casing
-    amount: 1
   - name: advanced_circuit
     amount: 1
   - name: lapotron_crystal
@@ -460,6 +468,14 @@ mining_laser:
     amount: 4
 
 energy_crystal:
+  - name: lapis_lazuli_dust
+    amount: 5
+  - name: advanced_circuit
+    amount: 2
+  - name: advanced_machine_casing
+    amount: 1
+
+lapotron_crystal:
   - name: redstone
     amount: 5
   - name: diamond_dust
@@ -535,3 +551,49 @@ reinforced_glass:
     amount: 7
   - name: advanced_alloy
     amount: 2
+
+heat_exchanger:
+  - name: copper_plate
+    amount: 5
+  - name: tin_plate
+    amount: 3
+  - name: electronic_circuit
+    amount: 1
+
+advanced_heat_exchanger:
+  - name: copper_plate
+    amount: 1
+  - name: lapis_plate
+    amount: 4
+  - name: electronic_circuit
+    amount: 2
+  - name: heat_exchanger
+    amount: 2
+
+luminator:
+  - name: glass
+    amount: 5
+  - name: tin_cable
+    amount: 1
+  - name: insulated_copper_cable
+    amount: 1
+  - name: iron_item_casing
+    amount: 2
+
+# nano suit
+
+nightvision_goggles:
+  - name: advanced_heat_exchanger
+    amount: 2
+  - name: rubber
+    amount: 2
+  - name: advanced_circuit
+    amount: 1
+  - name: reinforced_glass
+    amount: 1
+  - name: luminator
+    amount: 2
+  - name: advanced_re_battery
+    amount: 1
+
+
